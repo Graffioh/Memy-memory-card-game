@@ -1,2 +1,17 @@
-﻿  MemyMemoryGame.c
+﻿  functions.c
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(5,17): warning C4028: formal parameter 1 different from declaration
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(5,26): warning C4028: formal parameter 2 different from declaration
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(17,15): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(33,32): warning C4133: 'function': incompatible types - from 'int *' to 'char *'
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(33,44): warning C4133: 'function': incompatible types - from 'int *' to 'char *'
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(42,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(42,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(42,13): message : the missing variadic argument 2 is required by format string '%c'
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(42,13): message : this argument is used as a buffer size
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(43,13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(43,13): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(43,13): message : the missing variadic argument 2 is required by format string '%c'
+C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\MemyMemoryGame\functions.c(43,13): message : this argument is used as a buffer size
+  prints.c
+  Generating Code...
   MemyMemoryGame.vcxproj -> C:\Users\bregl\Desktop\Uni\programm\Lab di programmazione 1\vs2022\MemyMemoryGame\x64\Debug\MemyMemoryGame.exe

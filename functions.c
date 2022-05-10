@@ -2,9 +2,9 @@
 #define MAX_SIZE_ROW 3
 #define MAX_SIZE_COLUMN 4
 
-void swap(int* a, int* b)
+void swap(char* a, char* b)
 {
-    int temp = *a;
+    char temp = *a;
     *a = *b;
     *b = temp;
 }
@@ -36,13 +36,11 @@ void cardShuffle(int arr[MAX_SIZE_ROW][MAX_SIZE_COLUMN]) // reference: https://w
     }
 }
 
-void playerInput(int* x, int* y)
+void playerInput(char* x, char* y)
 {
-    printf(" \nMake your choice [row]: ");
-    scanf_s("%d", x);
-
-    printf(" \nMake your choice [column]: ");
-    scanf_s("%d", y);
+    printf(" \nMake your choice: ");
+    scanf_s(" %c", x);
+    scanf_s(" %c", y);
 }
 
 void changeToX(int matrix[MAX_SIZE_ROW][MAX_SIZE_COLUMN], char arrPrint1[], char arrPrint2[], char arrPrint3[])

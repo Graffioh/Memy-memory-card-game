@@ -7,7 +7,7 @@ void swap(int* a, int* b);
 
 void cardShuffle(int arr[3][4]);
 
-void playerInput(int* x, int* y);
+void playerInput(char* x, char* y);
 
 void changeToX(int matrix[3][4], char arrPrint1[], char arrPrint2[], char arrPrint3[]);
 
