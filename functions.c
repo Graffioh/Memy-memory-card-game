@@ -38,7 +38,7 @@ void cardShuffle(int arr[MAX_SIZE_ROW][MAX_SIZE_COLUMN]) // reference: https://w
 
 void playerInput(char* x, char* y)
 {
-    printf(" \nMake your choice: ");
+    printf(" \nMake your choice[row][column]: ");
     scanf_s(" %c", x);
     scanf_s(" %c", y);
 }

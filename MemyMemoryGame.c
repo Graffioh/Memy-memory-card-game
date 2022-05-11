@@ -108,7 +108,7 @@ int main()
             choice2row = (int)choice2rowChar - 48;
             choice2column = (int)choice2columnChar - 48;
 
-            if (choice2row <= MAX_SIZE_ROW && choice2row >= 0 && (choice2column <= MAX_SIZE_COLUMN && choice2column >= 0))
+            if (choice2row < MAX_SIZE_ROW && choice2row >= 0 && (choice2column < MAX_SIZE_COLUMN && choice2column >= 0))
             {
                 if (matrix[choice2row][choice2column] != -2 && matrix[choice2row][choice2column] != -1)
                 {

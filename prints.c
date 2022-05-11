@@ -12,8 +12,6 @@ void printGame()
 
     printf(" Max number of choices available: row = 2 column = 3 And you can't go under 0\n\n");
 
-    printf(" Insert only digits, not alphabet letters/special symbols.\n\n");
-
     printf(" If you score a point, XX characters will be displayed where you already flipped the card\n\n");
 
     printf(" ENJOY! :)\n\n");
