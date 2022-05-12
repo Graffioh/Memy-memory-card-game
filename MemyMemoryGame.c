@@ -169,6 +169,7 @@ int main()
         if (counter == 6)
         {
             printf("\n\n01011001 01001111 01010101 00100000 01010111 01001111 01001110\n\n"); // a message for the winner
+            system("pause");
             flag = 1;
         }
 
